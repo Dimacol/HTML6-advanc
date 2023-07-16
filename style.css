@@ -59,6 +59,10 @@ a {
   align-items: center;
 }
 
+#burger:checked ~ .menu {
+  display: -232px;
+}
+
 .top {
   background: #f1e4e6;
   display: flex;
@@ -127,10 +131,6 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #6f6e6e;
-}
-
-.hidden {
-  display: none;
 }
 
 li {

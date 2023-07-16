@@ -303,4 +303,45 @@ li {
 .footer__sotial:hover path:last-child {
   fill: #fff;
   transition: fill 1s;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
+  .top {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
+  .top__img {
+    width: 386px;
+  }
+  .top__info {
+    margin-left: 39px;
+  }
+  .top__title {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .top__subtitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .benefits {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    display: grid;
+    gap: 48px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 64px;
+    gap: 48px;
+    padding-bottom: 140px;
+    position: relative;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=registr.css.map */

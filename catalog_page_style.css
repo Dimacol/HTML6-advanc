@@ -113,7 +113,7 @@ li {
 }
 
 .collection-img {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -192,7 +192,7 @@ li {
   line-height: normal;
 }
 .cart__button {
-  border: 1px solid #FF6A6A;
+  border: 1px solid #ff6a6a;
   padding: 15px 57px 9px 24px;
   display: flex;
   align-items: center;

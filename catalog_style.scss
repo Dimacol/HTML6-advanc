@@ -66,18 +66,16 @@ a {
     font-size: 24px;
   }
 }
+
 .breadcrumbs {
-    &__link {
-        color: #636363;
-        font-size: 14px;
-        font-weight: 300;
-    }
-    & a:last-child {
-        color: $accentColor;
-    }  
+  color: #636363;
+  font-size: 14px;
+  font-weight: 300;
 }
 
-
+.breadcrumbs a:last-child {
+  color: $accentColor;
+}
 
 .menu {
   position: absolute;
@@ -234,22 +232,22 @@ li {
   gap: 28px;
   padding-top: 12px;
 
-&__details {
+  &__details {
     position: relative;
   }
-&__summary {
+  &__summary {
     display: flex;
     align-items: center;
     gap: 10px;
   }
-&__heading {
+  &__heading {
     color: #6f6e6e;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
-&__box {
+  &__box {
     background: #fff;
     box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
     padding: 7px 30px 11px 9px;
@@ -261,7 +259,7 @@ li {
     top: 22px;
   }
 
-&__check {
+  &__check {
     display: flex;
     gap: 9px;
     align-items: center;
